@@ -1,11 +1,11 @@
 * VETORES1 - Faça um programa que carregue dois vetores de dez elementos numéricos cada um e mostre um vetor resultante da intercalação desses dois vetores.
 
 * VETORES2 - Faça um programa que carregue dois vetores, X e Y, com dez números inteiros cada um. Considere que os números de cada vetor digital, X e Y, não podem estar repetidos. Calcule e mostre os seguintes vetores resultantes:
-a.	a união de X com Y (todos os elementos de X e os elementos de Y que não estejam em X)
-b.	a diferença entre X e Y (todos os elementos de X que não existam em Y)
-c.	a soma entre X e Y (soma de cada elemento de X com o elemento de mesma posição em Y)
-d.	produto entre X e Y (multiplicação de cada elemento de X com o elemento de mesma posição em Y)
-e.	a interseção entre X e Y (apenas os elementos que aparecem nos dois vetores)
+a. a união de X com Y (todos os elementos de X e os elementos de Y que não estejam em X)
+b. a diferença entre X e Y (todos os elementos de X que não existam em Y)
+c. a soma entre X e Y (soma de cada elemento de X com o elemento de mesma posição em Y)
+d. produto entre X e Y (multiplicação de cada elemento de X com o elemento de mesma posição em Y)
+e. a interseção entre X e Y (apenas os elementos que aparecem nos dois vetores)
 
 * VETORES3 - Faça um programa para corrigir provas de múltipla escolha com somatória. Cada prova tem dez questões e cada questão vale 1 ponto. O primeiro conjunto de dados a ser lido é o gabarito da prova. Os outros dados serão os números dos alunos e sua respectivas respostas. Existem 15 alunos matriculados. Calcule e mostre:
 - Para cada aluno seu número e sua nota;
