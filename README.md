@@ -1,6 +1,7 @@
 * VETORES1 - Faça um programa que carregue dois vetores de dez elementos numéricos cada um e mostre um vetor resultante da intercalação desses dois vetores.
 
 * VETORES2 - Faça um programa que carregue dois vetores, X e Y, com dez números inteiros cada um. Considere que os números de cada vetor digital, X e Y, não podem estar repetidos. Calcule e mostre os seguintes vetores resultantes:
+
 a. a união de X com Y (todos os elementos de X e os elementos de Y que não estejam em X)
 b. a diferença entre X e Y (todos os elementos de X que não existam em Y)
 c. a soma entre X e Y (soma de cada elemento de X com o elemento de mesma posição em Y)
