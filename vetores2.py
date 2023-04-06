@@ -60,3 +60,48 @@ for i in range(10):  #i indexador do conjY
     if not achei:
         uniao[proxlivre] = conjy[i]
         proxlivre += 1
+print(uniao)
+
+##b.	a diferença entre X e Y (todos os 
+# elementos de X que não achei em Y)
+diff = [0] * 10
+proxlivre = 0
+for i in range(10): #i - indexador do X
+    achei = False
+    for j in range(10): #j - indexador do Y
+        if conjx[i] == conjy[j]:
+            achei = True
+            break
+    #if achei == False:
+    if not achei:
+        diff[proxlivre] = conjx[i]
+        proxlivre += 1
+print("Diferenca: ", diff)
+
+#c.	a soma entre X e Y (soma de cada 
+# elemento de X com o elemento 
+# de mesma posição em Y)
+soma = [0] * 10
+for i in range(10):
+    soma[i] = conjx[i] + conjy[i]
+print("Soma: ", soma)
+
+#d.	produto entre X e Y (multiplicação 
+# de cada elemento de X com o elemento 
+# de mesma posição em Y)
+prod = [0] * 10
+for i in range(10):
+    prod[i] = conjx[i] * conjy[i]
+print("Produto: ", prod)
+
+#e.	a interseção entre X e Y (apenas os 
+# elementos que aparecem nos dois vetores)🐰🐰🐰🥚🥚🥚
+inter = [0] * 10
+proxlivre = 0
+for i in range(10): #i - indexador X
+    for j in range(10): #j - indexador Y
+        if conjx[i] == conjy[j]:
+            inter[proxlivre] = conjx[i]
+            proxlivre += 1
+            break
+print("interseção: ", inter)
