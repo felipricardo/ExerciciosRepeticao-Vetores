@@ -10,13 +10,20 @@ print("Digite o gabarito da prova: ")
 for i in range(10):
     print("Questao ", i+1, ":")
     gaba[i] = int(input())
-
+qtdaprov = 0
 for aluno in range(15):
     print("aluno: ", aluno+1)
+    print("Digite o num matrucla: ")
+    matricula = int(input())
     nota = 0
     for questao in range(10):
         print("resp questao", questao+1,":")
         resp = int(input())
         if resp == gaba[questao]:
             nota += 1
+    print("Matricula: ", matricula)
     print("A nota e :", nota)
+    if nota >= 6:
+        qtdaprov += 1
+perc = (qtdaprov * 100) / 15
+print("O perc de aprovados e", perc)
